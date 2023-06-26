@@ -34,7 +34,7 @@ resource "google_compute_subnetwork" "default" {
 # [START cloud_sql_sqlserver_vm_instance]
 resource "google_compute_instance" "sqlserver_vm" {
 
-  name     = "sqlserver_vm"
+  name     = "sqlserver-vm"
   boot_disk {
     auto_delete = true
     device_name = "persistent-disk-0"
